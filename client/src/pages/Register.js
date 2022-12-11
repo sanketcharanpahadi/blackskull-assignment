@@ -10,7 +10,7 @@ import {
   USER_CHANGE_LASTNAME,
   USER_CHANGE_PASSWORD,
 } from "../constants/userConstants";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 
 const Form = () => {
@@ -114,7 +114,6 @@ const Form = () => {
           </button>
         </div>
       </form>
-      <Link to="/chats">Chat</Link>
     </div>
   );
 };
